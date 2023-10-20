@@ -1,34 +1,10 @@
-[![pub package](https://img.shields.io/badge/pub-0.0.2-blue.svg)](https://pub.dev/packages/dotted_box)
+import 'package:flutter/material.dart';
+import 'package:dotted_box/dotted_box.dart';
 
-A flutter package which will help you to generate dotted box. Can be useful for form designs which includes attachment sections.
+void main() {
+  runApp(const MyApp());
+}
 
-## Features
-
-- Highly customizable
-- Easy to use
-
-## Getting started
-
-1. Import the package.
-
-```Dart
- import 'package:dotted_box/dotted_box.dart';
-```
-
-2. Use the widget in your code.
-
-```Dart
-DottedBox(
-          height: 100,
-          width: 100,
-        ),
-```
-
-## Usage
-
-**This full code is from the example folder. You can run the example to see.**
-
-```dart
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -73,4 +49,3 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
-```

@@ -10,13 +10,15 @@ class DottedBox extends StatelessWidget {
       this.backgroundColor,
       this.borderColor,
       this.borderThickness,
-      this.child});
+      this.child,
+      this.borderRadius});
 
   final double height;
   final double width;
   final Color? backgroundColor;
   final Color? borderColor;
   final double? borderThickness;
+  final double? borderRadius;
   final Widget? child;
 
   @override
@@ -28,7 +30,7 @@ class DottedBox extends StatelessWidget {
           width: width,
           decoration: BoxDecoration(
             color: backgroundColor ?? Colors.white,
-            borderRadius: BorderRadius.circular(16),
+            borderRadius: BorderRadius.circular(borderRadius ?? 16),
             border: Border.all(
                 color: borderColor ??
                     Colors.grey.withOpacity(

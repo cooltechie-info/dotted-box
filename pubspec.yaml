@@ -1,7 +1,7 @@
 name: dotted_box
-description: Flutter package for dotted box widget.
-version: 0.0.1
-homepage:
+description: A flutter package which will help you to generate dotted box. Can be useful for form designs which includes attachment sections.
+version: 0.0.2
+repository: https://github.com/cooltechie-info/dotted-box
 
 environment:
   sdk: '>=3.1.2 <4.0.0'
@@ -17,3 +17,9 @@ dev_dependencies:
   flutter_lints: ^2.0.0
  
 flutter:
+
+topics:
+  - dotted-border
+  - dotted-box
+  - dotted
+  - outline
