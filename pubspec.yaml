@@ -1,7 +1,12 @@
 name: dotted_box
 description: A flutter package which will help you to generate dotted box. Can be useful for form designs which includes attachment sections.
-version: 0.0.2
+version: 0.0.3
 repository: https://github.com/cooltechie-info/dotted-box
+screenshots:
+  - description: 'Circle shape'
+    path: example/assets/dotted-box-1.png
+  - description: 'Rectangle shape'
+    path: example/assets/dotted-box-2.png
 
 environment:
   sdk: '>=3.1.2 <4.0.0'

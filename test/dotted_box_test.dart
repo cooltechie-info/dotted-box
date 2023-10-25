@@ -9,6 +9,7 @@ void main() {
         body: DottedBox(
           height: 100,
           width: 100,
+          borderShape: Shape.rectangle,
         ),
       ),
     ));
