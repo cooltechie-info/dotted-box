@@ -1,4 +1,4 @@
-[![pub package](https://img.shields.io/badge/pub-0.0.3-blue.svg)](https://pub.dev/packages/dotted_box)
+[![pub package](https://img.shields.io/badge/pub-0.0.4-blue.svg)](https://pub.dev/packages/dotted_box)
 
 A flutter package which will help you to generate dotted box. Can be useful for form designs which includes attachment sections.
 
@@ -12,13 +12,13 @@ A flutter package which will help you to generate dotted box. Can be useful for 
 1. Import the package.
 
 ```Dart
- import 'package:dotted_box/dotted_box.dart';
+import 'package:dotted_box/dotted_box.dart';
 ```
 
 2. Use the widget in your code.
 
 ```Dart
-        DottedBox(
+DottedBox(
                   height: 350,
                   width: 350,
                   borderThickness: 4,

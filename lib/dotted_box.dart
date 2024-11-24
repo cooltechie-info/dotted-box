@@ -20,14 +20,31 @@ class DottedBox extends StatelessWidget {
     this.dashCounts,
   });
 
+  /// This is the height of the widget
   final double height;
+
+  /// This is the width of the widget
   final double width;
+
+  /// This is the space between the dashes
   final int? space;
+
+  /// This is the border color of the widget
   final Color? borderColor;
+
+  /// This is the height of the widget
   final double? borderThickness;
+
+  /// This is the height of the widget
   final double? borderRadius;
+
+  /// This is the height of the widget
   final Widget? child;
+
+  /// This is the height of the widget
   final Shape? borderShape;
+
+  /// This is the height of the widget
   final int? dashCounts;
 
   @override
